@@ -23,13 +23,3 @@ The application utilizes a decoupling pattern separating data preparation (offli
 * **Asynchronous UX Design:** Uses progress spinners (`st.spinner`) during computation to ensure a fluid application state flow.
 
 ---
-
-## 📂 Detailed Project Structure
-
-```text
-MovieRecommenderSystem/
-│
-├── app.py                # Core production script containing UI and API connections
-├── requirements.txt      # Production library dependencies with pinned components
-├── movies.pkl            # Serialized Pandas DataFrame holding processed metadata and IDs
-└── similarity.pkl        # Serialized 2D NumPy array containing pre-computed similarity scores
